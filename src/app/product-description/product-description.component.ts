@@ -8,8 +8,7 @@ import { ProductService } from '../product.service'
 })
 export class ProductDescriptionComponent implements OnInit {
 
-  constructor(private _ProductService: ProductService) { 
-    this._ProductService = _ProductService
+  constructor(private _productService: ProductService) {
   }
 
   ngOnInit() {
